@@ -5,9 +5,12 @@ import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 
-@Getter
+//Tag para criar o getter/setter dos atributos (pacote Lombok)
+@Getter 
 @Setter
-@AllArgsConstructor
+//Tag para criar o construtor p/ passar todos os atributos(pacote Lombok)
+@AllArgsConstructor 
+//Tag para criar um construtor sem nenhum argumento
 @NoArgsConstructor
 public class User {
 
